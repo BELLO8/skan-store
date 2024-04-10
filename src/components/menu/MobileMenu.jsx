@@ -23,7 +23,7 @@ export const MobileMenu = ({ setOpenSide, openSide }) => {
                         </div>
                     </div>
                 ))}
-                <button className="mt-12 btn btn-sm h-[35px] px-8 rounded-full  bg-[#F15625] text-white hover:bg-[#F15625]">S'inscrire</button>
+                <button className="border-none mt-12 btn btn-sm h-[35px] px-8 rounded-full  bg-[#F15625] text-white hover:bg-[#F15625]">S'inscrire</button>
             </ul>
         </div>
     )

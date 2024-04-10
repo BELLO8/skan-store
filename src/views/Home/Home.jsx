@@ -17,7 +17,7 @@ export const Home = () => {
                     <div className='max-sm:px-10 max-md:px-12 max-lg:px-8'>
                         <h1 className='max-sm:text-[32px] max-md:text-[45px] max-lg:text-[50px] lg:text-[50px] max-xl:text-[50px] leading-10 text-[#000000] font-bold'>Aller n'importe où, n'importe quand</h1>
                         <p className='mt-[18px] mb-[35px] lg:text-[18px] font-medium text-[#707070]'>Treiize Taxi est l'appli de mobilité tout-en-un. Soyez pris en charge par un chauffeur avec un service première classe en quelques minutes et profitez d'un trajet confortable où que vous alliez</p>
-                        <button className='text-[13px] text-white btn btn-sm rounded-full font-semibold w-[194px] h-[37px] bg-[#F15625] hover:bg-[#F15625]'>Télécharger l'application</button>
+                        <button className='border-none text-[13px] text-white btn btn-sm rounded-full font-semibold w-[194px] h-[37px] bg-[#F15625] hover:bg-[#F15625]'>Télécharger l'application</button>
                     </div>
                     <div className='md:w-[514px] md:h-[385]  lg:w-[514px] lg:h-[385] sm:mx-auto'>
                         <img src={mock} alt="" />
