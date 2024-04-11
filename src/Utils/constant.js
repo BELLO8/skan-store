@@ -41,7 +41,7 @@ export const steps = [
     icon: download,
     name: "Téléchargez l'application",
     description:
-      "Téléchargez l'application Treize Taxi depuis le Playstore ou l'Apple Store.",
+      "Téléchargez l'application Treiize Taxi depuis le Playstore ou l'Apple Store.",
   },
   {
     id: 2,
@@ -85,33 +85,33 @@ export const features = [
 export const faq = [
   {
     id: 1,
-    question: "Puis-je conduire avec Treize Taxi dans ma ville ?",
+    question: "Puis-je conduire avec Treiize Taxi dans ma ville ?",
     response:
-      "Oui vous pouvez conduire avec Treize Taxi dans votre ville à condition d’être inscrit sur la plateforme.",
+      "Oui vous pouvez conduire avec Treiize Taxi dans votre ville à condition d’être inscrit sur la plateforme.",
   },
   {
     id: 2,
-    question: "Comment s’inscrire sur Treize Taxi ?",
+    question: "Comment s’inscrire sur Treiize Taxi ?",
     response:
-      "Oui vous pouvez conduire avec Treize Taxi dans votre ville à condition d’être inscrit sur la plateforme.",
+      "Oui vous pouvez conduire avec Treiize Taxi dans votre ville à condition d’être inscrit sur la plateforme.",
   },
   {
     id: 3,
-    question: "Ai-je besoin d’une voiture pour conduire sur Treize Taxi ?",
+    question: "Ai-je besoin d’une voiture pour conduire sur Treiize Taxi ?",
     response:
-      "Oui vous pouvez conduire avec Treize Taxi dans votre ville à condition d’être inscrit sur la plateforme.",
+      "Oui vous pouvez conduire avec Treiize Taxi dans votre ville à condition d’être inscrit sur la plateforme.",
   },
   {
     id: 4,
     question: "Comment suis-je payé quand j’effectue une course ?",
     response:
-      "Oui vous pouvez conduire avec Treize Taxi dans votre ville à condition d’être inscrit sur la plateforme.",
+      "Oui vous pouvez conduire avec Treiize Taxi dans votre ville à condition d’être inscrit sur la plateforme.",
   },
   {
     id: 5,
-    question: "L’application Treize Taxi est-elle fiable ?",
+    question: "L’application Treiize Taxi est-elle fiable ?",
     response:
-      "Oui vous pouvez conduire avec Treize Taxi dans votre ville à condition d’être inscrit sur la plateforme.",
+      "Oui vous pouvez conduire avec Treiize Taxi dans votre ville à condition d’être inscrit sur la plateforme.",
   },
 ];
 
@@ -152,7 +152,7 @@ export const howItWork = [
     icon: icon1,
     name: "Créez votre compte partenaire",
     description:
-      "Commencez en créant votre compte partenaire Treize Taxi en cliquant sur le bouton s’inscrire.",
+      "Commencez en créant votre compte partenaire Treiize Taxi en cliquant sur le bouton s’inscrire.",
   },
   {
     id: 2,

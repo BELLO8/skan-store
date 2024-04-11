@@ -10,7 +10,7 @@ export const Apropos = () => {
     return (
         <>
 
-            <div className='text-center flex items-center justify-center h-96' style={{ backgroundImage: `url("${banner3}")`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+            <div className='text-center flex items-center justify-center h-80' style={{ backgroundImage: `url("${banner3}")`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
                 <div className='max-sm:px-10 max-md:px-12 max-lg:px-28  w-[705px]'>
                     <h1 className='max-sm:text-[32px] max-md:text-[45px] max-lg:text-[50px] lg:text-[50px] max-xl:text-[50px] leading-10 text-white font-bold'>
                         A propos
@@ -37,12 +37,12 @@ export const Apropos = () => {
                 </div>
             </div>
 
-            <div className='p-8'>
+            <div className=''>
                 <div className='text-center max-sm:px-6'>
                     <h1 className='text-[#F15625] max-sm:text-[22px] sm:text-[28px] md:text-[30px] lg:text-[40px] font-bold'>Ce que nous proposons</h1>
                 </div>
                 <div className='my-8'>
-                    <div className='p-8 grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 max-sm:gap-6 sm:gap-6 md:gap-8 lg:px-38 xl:px-48'>
+                    <div className='px-4 grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 max-sm:gap-6 sm:gap-6 md:gap-8 lg:px-38 xl:px-48'>
                         {
                             proposition.map((item) => (
                                 <div className='bg-white shadow-sm rounded-[18px] p-6'>
@@ -61,11 +61,11 @@ export const Apropos = () => {
                         <h1 className='leading-10 text-[#F15625] text-[26px] lg:text-[35px] font-bold'>Notre vision</h1>
                         <div className='mt-8 grid grid-rows gap-4'>
                             <p className='text-sm text-[#484848]'>
-                                Nous croyons que la meilleure utilisation de la technologie est d’améliorer la qualité de vie. C’est dans cette optique que nous avons créé TREIIZE TAXI spécialement pour réduire les coûts des transports et permettre aux chauffeurs de rentabiliser davantage.                            </p>
-
+                                Nous croyons que la meilleure utilisation de la technologie est d'améliorer la qualité de vie. C’est dans cette optique que nous avons créé TREIIZE TAXI spécialement pour réduire les coûts des transports et permettre aux chauffeurs de rentabiliser davantage.
+                            </p>
                         </div>
                     </div>
-
+                        
                     <div className=''>
                         <img src={vision} alt="" width={321} height={267} />
                     </div>

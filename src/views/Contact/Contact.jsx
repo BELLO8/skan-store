@@ -4,15 +4,15 @@ import { Footer } from '../../components/Footer'
 export const Contact = () => {
     return (
         <>
-            <div className='px-12 lg:px-72 mb-2 flex mt-12'>
-                <div className='max-sm:px-10 max-md:px-12 max-lg:px-28  w-[705px]'>
-                    <h1 className='max-sm:text-[32px] max-md:text-[45px] max-lg:text-[50px] lg:text-[50px] max-xl:text-[50px] leading-10 font-bold'>
+            <div className='px-12 lg:px-60 mb-2 flex mt-12'>
+                <div className='w-[705px]'>
+                    <h1 className='text-[36px] lg:text-[50px] leading-10 font-bold'>
                         Contactez-nous
                     </h1>
                 </div>
             </div>
 
-            <div className='px-12 lg:px-72 grid md:grid-cols-2 lg:grid-cols-2'>
+            <div className='mt-3 px-12 lg:px-60 grid md:grid-cols-2 lg:grid-cols-2'>
                 <div>
                     <p className='font-medium text-[21px]'>Téléphone</p>
                     <p className='font-bold text-[#F15625] text-[25px]'>+225 07 00 00 0000</p>
@@ -24,7 +24,7 @@ export const Contact = () => {
                 </div>
             </div>
 
-            <div className='px-4 my-12'>
+            <div className='px-4 my-4'>
                 <div className='lg:flex justify-center'>
                     <div className=' flex items-center justify-center bg-[#1F1F1F] rounded-[15px] lg:rounded-[30px]'>
                         <div className='p-20'>

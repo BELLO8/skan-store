@@ -8,28 +8,27 @@ import { Footer } from '../../components/Footer'
 export const Partenaire = () => {
     return (
         <>
-
-            <div className='text-center flex items-center justify-center h-96 xl:h-[510px]' style={{ backgroundImage: `url("${banner2}")`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+            <div className='text-center flex items-center justify-center h-96 xl:h-[470px]' style={{ backgroundImage: `url("${banner2}")`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
                 <div className='max-sm:px-10 max-md:px-12 max-lg:px-28  w-[705px]'>
                     <h1 className='max-sm:text-[32px] max-md:text-[45px] max-lg:text-[50px] lg:text-[50px] max-xl:text-[50px] leading-10 text-white font-bold'>
-                        Augmentez les performances de vos véhicules avec Treize Taxi
+                        Augmentez les performances de vos véhicules avec Treiize Taxi
                     </h1>
                     <p className='text-center mx-auto w-[423px] mt-[18px] mb-[35px] lg:text-[18px] font-medium text-white'>
-                        Propriétaire de plusieurs véhicules ? Rejoingez Treize Taxi en tant partenaires et augmentez les revenus de vos véhicules
+                        Propriétaire de plusieurs véhicules ? Rejoingez Treiize Taxi en tant partenaires et augmentez les revenus de vos véhicules
                     </p>
-                    <button className='border-none text-[13px] text-white btn btn-sm rounded-full font-semibold w-[194px] h-[37px] bg-[#F15625] hover:bg-[#F15625]'>
+                    {/* <button className='border-none text-[13px] text-white btn btn-sm rounded-full font-semibold w-[194px] h-[37px] bg-[#F15625] hover:bg-[#F15625]'>
                         Commencez maintenant
-                    </button>
+                    </button> */}
                 </div>
             </div>
 
-            <div className='p-8 bg-[#1F1F1F]'>
+            <div className='py-8 bg-[#1F1F1F]'>
                 <div className='text-center max-sm:px-6'>
-                    <h1 className='text-[#F15625] max-sm:text-[22px] sm:text-[28px] md:text-[30px] lg:text-[40px] font-bold'>Devenez l’un de nos nombreux partenaires</h1>
-                    <p className='text-wrap mx-auto xl:w-[564px] text-white'>Devenez partenaire Treize Taxi et bénéficiez de nombreux pour vos conducteurs et vos revenus.</p>
+                    <h1 className='text-[#F15625] text-[24px] lg:text-[40px] font-bold'>Devenez l’un de nos nombreux partenaires</h1>
+                    <p className='text-wrap mx-auto xl:w-[564px] text-white'>Devenez partenaire Treiize Taxi et bénéficiez de nombreux pour vos conducteurs et vos revenus.</p>
                 </div>
                 <div className='my-8'>
-                    <div className='p-8 grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 max-sm:gap-6 sm:gap-6 md:gap-8 lg:px-38 xl:px-48'>
+                    <div className='px-4 grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 max-sm:gap-6 sm:gap-6 md:gap-8 lg:px-48 xl:px-80'>
                         {
                             partnerStep.map((item) => (
                                 <div className='bg-white shadow-sm rounded-[18px] p-6'>
@@ -75,6 +74,9 @@ export const Partenaire = () => {
                 </div>
             </div>
 
+            <div className='mt-12 text-center max-sm:px-6'>
+                <h1 className='text-[#F15625] max-sm:text-[22px] sm:text-[28px] md:text-[30px] lg:text-[35px] font-bold'>Foire aux questions des chauffeurs</h1>
+            </div>
             <div className="mt-12 flex justify-center px-8">
                 <div className='grid grid-rows gap-4'>
                     {
@@ -96,8 +98,8 @@ export const Partenaire = () => {
                 </div>
             </div>
 
-            <div className='lg:flex justify-center my-28'>
-                <div className='px-8 flex items-center bg-[#2D2D2D] rounded-[30px] w-full lg:w-[1082px] lg:h-[364px]'>
+            <div className='px-4 lg:flex justify-center my-28'>
+                <div className='px-8 py-6 flex items-center bg-[#2D2D2D] rounded-[30px] w-full lg:w-[1082px] lg:h-[364px]'>
                     <div className="lg:relative grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4">
                         <div className=''>
                             <h1 className='text-[27px] lg:text-[35px] text-white font-bold leading-10'>
@@ -108,7 +110,7 @@ export const Partenaire = () => {
                             </p>
                             <button className='border-none text-[14px] text-[#00000] btn btn-sm rounded-full font-bold w-[184px] h-[37px] bg-white hover:bg-white'>Devenir partenaire</button>
                         </div>
-                        <div className='lg:absolute lg:bottom-[-67px] lg:right-0 w-[240px] h-[38]  lg:w-[514px] lg:h-[385] sm:mx-auto'>
+                        <div className='lg:absolute lg:bottom-[-67px] lg:right-0 w-[240px] h-[217px]  lg:w-[514px] lg:h-[515px] sm:mx-auto'>
                             <img src={phone} alt="" />
                         </div>
                     </div>
