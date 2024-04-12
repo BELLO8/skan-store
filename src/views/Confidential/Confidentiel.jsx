@@ -22,7 +22,11 @@ export const Confidentiel = () => {
                             Informations de contact telles que votre nom, adresse e-mail et numéro de téléphone.
                             Informations de paiement telles que les détails de votre carte de crédit.
                             Informations sur vos commandes de taxi, y compris les lieux de prise en charge et de dépose.
-                            Informations de localisation lorsque vous utilisez notre application mobile.
+                            Informations de localisation lorsque vous utilisez nos applications mobiles.
+                        </p>
+                        
+                        <p className='mt-3'>
+                            Treiize Driver collecte les données de localisation en arrière-plan afin de recevoir les commandes de taxi à proximité effectuées par le client.
                         </p>
                     </div>
 

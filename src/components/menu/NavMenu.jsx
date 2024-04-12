@@ -35,7 +35,7 @@ export default function NavMenu() {
                                     {item.name}
                                 </NavLink>
                             ))}
-                            <button className="btn btn-sm h-[35px] px-8 rounded-full  bg-[#F15625] text-white hover:bg-[#F15625]">S'inscrire</button>
+                            <Link to={'http://www.treiizetaxi.com/partenaire/'} className="btn btn-sm h-[35px] px-8 rounded-full  bg-[#F15625] text-white hover:bg-[#F15625]">Se connecter</Link>
                         </div>
 
                         <div className='lg:hidden'>

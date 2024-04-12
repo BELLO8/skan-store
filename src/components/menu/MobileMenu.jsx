@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import img2 from '../../assets/images/image2.png';
 import { navigation } from './NavMenu';
 export const MobileMenu = ({ handleClick, clickAction }) => {
@@ -24,7 +24,7 @@ export const MobileMenu = ({ handleClick, clickAction }) => {
                         </div>
                     </div>
                 ))}
-                <button className="border-none mt-12 btn btn-sm h-[35px] px-8 rounded-full  bg-[#F15625] text-white hover:bg-[#F15625]">S'inscrire</button>
+                <Link to={'http://www.treiizetaxi.com/partenaire/'} className="btn btn-sm h-[35px] px-8 rounded-full  bg-[#F15625] text-white hover:bg-[#F15625]">Se connecter</Link>
             </ul>
         </div>
     )
