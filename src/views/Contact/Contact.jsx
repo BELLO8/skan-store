@@ -29,7 +29,7 @@ export const Contact = () => {
                     <div className=' flex items-center justify-center bg-[#1F1F1F] rounded-[15px] lg:rounded-[30px]'>
                         <div className='p-20'>
                             <h1 className='lg:w-[770px] text-center text-[16px] lg:text-[22px] text-white leading-7'>Envie de rejoindre la team Treiize Taxi ou discuter avec nous ? Laissez nous un messge à l’adresse suivante</h1>
-                            <p className='mt-3 text-center text-xl lg:text-[50px] text-white font-bold'>contact@treiize.com</p>
+                            <p className='mt-3 text-center text-xl lg:text-[50px] text-white font-bold'>contact@treiizetaxi.com</p>
                         </div>
                     </div>
                 </div>
