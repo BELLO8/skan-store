@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { features, helps, steps } from '../../Utils/constant'
 import img1 from '../../assets/images/image1.png'
 import img2 from '../../assets/images/image2.png'
@@ -8,6 +9,26 @@ import { Footer } from '../../components/Footer'
 import { Step } from '../../components/Step'
 export const Home = () => {
 
+    const [storeLink, setStoreLink] = useState('');
+
+    useEffect(() => {
+        const handleDeviceDetection = () => {
+            const userAgent = navigator.userAgent.toLowerCase();
+            const isIOS = /iphone|ipad|ipod/g.test(userAgent);
+            const isAndroid = /android/g.test(userAgent);
+
+            if (isAndroid) {
+                setStoreLink('https://play.google.com/store/apps/details?id=com.skan.treiize.taxi&pcampaignid=web_share');
+                console.log('android');
+            } else if (isIOS) {
+                setStoreLink('https://apps.apple.com/bf/app/treiize-taxi/id6482293997?l=fr-FR ');
+            } else {
+                setStoreLink('https://play.google.com/store/apps/details?id=com.skan.treiize.taxi&pcampaignid=web_share');
+            }
+        };
+
+        handleDeviceDetection();
+    })
 
     return (
         <>
@@ -17,7 +38,7 @@ export const Home = () => {
                     <div className='max-sm:px-4 max-md:px-12 max-lg:px-8'>
                         <h1 className='text-[32px] lg:text-[50px] leading-10 text-white font-bold'>Aller n'importe où, n'importe quand</h1>
                         <p className='mt-4 mb-8 lg:text-[18px] font-medium text-white'>Treiize Taxi est l'appli de mobilité tout-en-un. Soyez pris en charge par un chauffeur avec un service première classe en quelques minutes et profitez d'un trajet confortable où que vous alliez.</p>
-                        <button className='border-none text-[14px] text-white btn btn-sm rounded-full font-semibold w-[215px] h-[47px] bg-[#F15625] hover:bg-[#F15625]'>Télécharger l'application</button>
+                        <Link to={storeLink} className='border-none text-[14px] text-white btn btn-sm rounded-full font-semibold w-[215px] h-[47px] bg-[#F15625] hover:bg-[#F15625]'>Télécharger l'application</Link>
                     </div>
                     {/* <div className='w-full h-full mx-auto'>
                         <img src={mock} alt="" />
