@@ -1,11 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&display=swap");
-
-body {
-  font-family: "Anek Bangla", "Montserrat";
-}
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Questrial&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Questrial&display=swap");
 
 ::-webkit-scrollbar {
   width: 4px;
@@ -16,7 +13,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-[#F15625] rounded-xl;
+  @apply bg-[#345082] rounded-xl;
 }
 
 .active {

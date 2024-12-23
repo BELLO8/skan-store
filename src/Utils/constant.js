@@ -17,21 +17,15 @@ import user from "../assets/icons/user.png";
 export const helps = [
   {
     id: 1,
-    name: "Avant le trajet",
+    name: "Activez les sources inconnues",
     description:
-      "Vérifiez que le visage, la marque et la plaque d'immatriculation du chauffeur correspondent à celles affichées dans l'appli.",
+      "Pour installer Skan Store, vous devez activer les sources inconnues sur votre appareil Android. ",
   },
   {
     id: 2,
-    name: "Pendant le trajet",
+    name: "Installez l'appli",
     description:
-      "Suivez le trajet du véhicule grâce à la map et signalez tout incident qui pourrait survenir.",
-  },
-  {
-    id: 3,
-    name: "Après le trajet",
-    description:
-      "Suivez le trajet du véhicule grâce à la map et signalez tout incident qui pourrait survenir.",
+      "Découvrez un monde d'applications Android innovantes, directement depuis Skan Store.",
   },
 ];
 
@@ -186,3 +180,8 @@ export const proposition = [
       "Nous proposons des courses selon un modèle de tarification dynamique pour les conducteurs et les passagers qui dépend de la destination ainsi que de la demande du moment.",
   },
 ];
+
+export const BASE_URL = "http://5.196.4.7:8080/skanstore-api/";
+
+export const DOWNLOAD_APK = "clientfree/fichier/telecharger-skanstore";
+export const LOGO_APPS = "clientfree/rechercher-listes-logos-apps";
